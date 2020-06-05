@@ -14,7 +14,7 @@ describe('Login to the application', () => {
         cy.wait(20000)
         cy.shadowGet('#trigger')
             .shadowFind('.dropdown-trigger')
-            .shadowClick()
+            .shadowClick() 
     })
 
 
